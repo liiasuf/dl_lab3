@@ -1,5 +1,5 @@
 # Отчёт по лабораторной работе 3
-X
+
 **Среда:** LM Studio (локальная LLM)  
 **Модель:** `openai/gpt-oss-20b`  
 **Endpoint:** `http://localhost:1234/v1`  
