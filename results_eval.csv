@@ -1,0 +1,9 @@
+topic,mode,correctness,groundedness,completeness,coverage,source_consistency,rubric_score,n_steps,latency,stop_reason
+Agentic AI for customer support,eval,4,3,4,4,3,3.6,7,91.30477690696716,regenerated_after_eval
+Graph RAG for enterprise knowledge systems,eval,4,3,3,4,3,3.4,7,95.3639829158783,regenerated_after_eval
+LLM evaluation and process-aware metrics,eval,5,5,4,5,5,4.8,7,118.01740217208862,regenerated_after_eval
+Tool-using language models in scientific search,eval,4,3,3,4,3,3.4,7,109.3295431137085,regenerated_after_eval
+Retrieval-augmented generation in medicine,eval,4,3,3,3,3,3.2,7,96.09784603118896,regenerated_after_eval
+Planning and reflection in LLM agents,eval,4,3,2,3,4,3.2,7,115.91701197624207,regenerated_after_eval
+Human-in-the-loop AI systems,eval,4,3,4,4,3,3.6,7,112.28359699249268,regenerated_after_eval
+Knowledge graphs for procedural reasoning,eval,4,3,3,2,2,2.8,7,100.20867395401001,regenerated_after_eval

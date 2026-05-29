@@ -1,0 +1,25 @@
+topic,mode,correctness,groundedness,completeness,coverage,source_consistency,rubric_score,n_steps,latency,stop_reason
+Agentic AI for customer support,baseline,5,5,4,5,5,4.8,1,17.80655598640442,baseline_single_step
+Graph RAG for enterprise knowledge systems,baseline,4,3,4,5,5,4.2,1,21.809702157974243,baseline_single_step
+LLM evaluation and process-aware metrics,baseline,4,3,3,4,5,3.8,1,26.523951053619385,baseline_single_step
+Tool-using language models in scientific search,baseline,4,2,3,4,1,2.8,1,19.642318964004517,baseline_single_step
+Retrieval-augmented generation in medicine,baseline,3,2,3,4,1,2.6,1,29.716041088104248,baseline_single_step
+Planning and reflection in LLM agents,baseline,3,2,2,3,1,2.2,1,28.085397958755493,baseline_single_step
+Human-in-the-loop AI systems,baseline,4,2,3,5,2,3.2,1,25.09987783432007,baseline_single_step
+Knowledge graphs for procedural reasoning,baseline,4,3,2,4,3,3.2,1,20.47763991355896,baseline_single_step
+Agentic AI for customer support,agent,4,3,4,4,3,3.6,6,34.171653032302856,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent,4,3,3,4,3,3.4,6,43.9406099319458,final_answer_generated
+LLM evaluation and process-aware metrics,agent,5,5,4,5,5,4.8,6,53.314252853393555,final_answer_generated
+Tool-using language models in scientific search,agent,4,4,3,3,4,3.6,6,45.35919499397278,final_answer_generated
+Retrieval-augmented generation in medicine,agent,5,4,4,4,4,4.2,6,40.74459481239319,final_answer_generated
+Planning and reflection in LLM agents,agent,5,5,4,5,5,4.8,6,48.09720778465271,final_answer_generated
+Human-in-the-loop AI systems,agent,3,2,3,2,1,2.2,6,49.15858721733093,final_answer_generated
+Knowledge graphs for procedural reasoning,agent,4,3,3,4,4,3.6,6,45.622032165527344,final_answer_generated
+Agentic AI for customer support,eval,4,3,4,4,3,3.6,7,91.30477690696716,regenerated_after_eval
+Graph RAG for enterprise knowledge systems,eval,4,3,3,4,3,3.4,7,95.3639829158783,regenerated_after_eval
+LLM evaluation and process-aware metrics,eval,5,5,4,5,5,4.8,7,118.01740217208862,regenerated_after_eval
+Tool-using language models in scientific search,eval,4,3,3,4,3,3.4,7,109.3295431137085,regenerated_after_eval
+Retrieval-augmented generation in medicine,eval,4,3,3,3,3,3.2,7,96.09784603118896,regenerated_after_eval
+Planning and reflection in LLM agents,eval,4,3,2,3,4,3.2,7,115.91701197624207,regenerated_after_eval
+Human-in-the-loop AI systems,eval,4,3,4,4,3,3.6,7,112.28359699249268,regenerated_after_eval
+Knowledge graphs for procedural reasoning,eval,4,3,3,2,2,2.8,7,100.20867395401001,regenerated_after_eval

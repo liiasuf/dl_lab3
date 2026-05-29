@@ -1,0 +1,13 @@
+topic,mode,correctness,groundedness,completeness,coverage,source_consistency,rubric_score,n_steps,latency,stop_reason
+Agentic AI for customer support,agent_top3,4,3,3,4,3,3.4,8,43.55556511878967,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_top3,4,3,3,4,3,3.4,8,45.78782510757446,final_answer_generated
+Agentic AI for customer support,agent_top5,4,3,4,4,3,3.6,8,44.47311019897461,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_top5,5,5,4,5,5,4.8,8,39.81815695762634,final_answer_generated
+Agentic AI for customer support,agent_top8,3,2,2,1,3,2.2,6,43.33371186256409,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_top8,4,3,2,1,3,2.6,6,43.98512268066406,final_answer_generated
+Agentic AI for customer support,agent_steps4,5,4,4,5,4,4.4,4,30.06159210205078,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_steps4,4,3,3,3,4,3.4,4,45.10329294204712,final_answer_generated
+Agentic AI for customer support,agent_steps6,4,4,3,4,4,3.8,6,40.570833921432495,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_steps6,5,5,4,5,5,4.8,6,54.62195014953613,final_answer_generated
+Agentic AI for customer support,agent_steps8,4,3,3,3,4,3.4,8,45.90395426750183,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent_steps8,4,3,2,1,3,2.6,8,48.448376178741455,final_answer_generated

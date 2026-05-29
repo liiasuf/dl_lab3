@@ -1,0 +1,4 @@
+mode,correctness,groundedness,completeness,coverage,rubric_score,n_steps,latency
+agent,4.25,3.625,3.5,3.875,3.775,6.0,45.051016598939896
+baseline,3.875,2.75,3.0,4.25,3.35,1.0,23.645185619592667
+eval,4.125,3.25,3.25,3.625,3.5,7.0,104.81535425782204

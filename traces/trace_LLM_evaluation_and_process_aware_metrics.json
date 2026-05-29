@@ -1,0 +1,62 @@
+{
+  "topic": "LLM evaluation and process-aware metrics",
+  "history": [
+    {
+      "step_id": 0,
+      "action": "wikipedia",
+      "payload": {
+        "topic": "LLM evaluation and process-aware metrics"
+      },
+      "result_preview": "\nVibe coding is a software development practice assisted by artificial intelligence (AI) where the software developer describes a project or task in a prompt to a large language model (LLM), which gen"
+    },
+    {
+      "step_id": 1,
+      "action": "openalex_search_page_1",
+      "payload": {
+        "query": "LLM evaluation and process-aware metrics",
+        "per_page": 5,
+        "page": 1
+      },
+      "result_preview": "found 5 papers (total 70830)"
+    },
+    {
+      "step_id": 2,
+      "action": "extract_abstracts_page_1",
+      "payload": {
+        "n": 5
+      },
+      "result_preview": "total notes: 5"
+    },
+    {
+      "step_id": 3,
+      "action": "openalex_search_page_2",
+      "payload": {
+        "query": "LLM evaluation and process-aware metrics",
+        "per_page": 5,
+        "page": 2
+      },
+      "result_preview": "found 5 papers (total 70830)"
+    },
+    {
+      "step_id": 4,
+      "action": "extract_abstracts_page_2",
+      "payload": {
+        "n": 5
+      },
+      "result_preview": "total notes: 10"
+    },
+    {
+      "step_id": 5,
+      "action": "generate_final",
+      "payload": {
+        "total_sources": 10
+      },
+      "result_preview": "**Обзор: Оценка LLM и процессно‑осознанные метрики**\n\n---\n\n### 1. Определение темы  \nОценка больших языковых моделей (LLM) и разработка метрик, учитывающих процесс генерации кода или текста. В контексте *vibe coding* это означает измерение качества, надёжности и «зависимости» LLM от внешних инструме"
+    }
+  ],
+  "n_sources": 10,
+  "n_notes": 10,
+  "status": "finished",
+  "stop_reason": "final_answer_generated",
+  "final_answer_preview": "**Обзор: Оценка LLM и процессно‑осознанные метрики**\n\n---\n\n### 1. Определение темы  \nОценка больших языковых моделей (LLM) и разработка метрик, учитывающих процесс генерации кода или текста. В контексте *vibe coding* это означает измерение качества, надёжности и «зависимости» LLM от внешних инструментов (например, автокомплита) и их способности корректно работать в репозиториях.\n\n---\n\n### 2. Основные подходы  \n\n| Подход | Краткое описание | Применение |\n|--------|------------------|------------|\n| **Бенчмаркинг на специализированных датасетах** | Создание наборов вопросов/задач, отражающих реальную задачу (медицина, кодирование). | Оценка знаний и логического рассуждения LLM. |\n| **Интеграция автокомплита (ToolGen)** | Внедрение внешних инструментов в процесс генерации кода, чтобы LLM «знает» о зависимостях репозитория. | Снижение ошибок undefined‑variable, no‑member в генерации кода. |\n| **Мульти‑модальная генерация знаний** | Генерация ответов, объединяющих текст и изображения, с помощью LLM как генеративного ретривера. | Улучшение качества поиска и представления знаний в мультимодальных приложениях. |\n| **Парафразирование как метрика качества** | Сравнение синтаксической/лексической вариативности при сохранении семантики. | Оценка гибкости и надёжности генерации текста. |\n| **Логическое рассуждение** | Тестирование способности LLM выполнять последовательные выводы. | Оценка «интеллекта» модели в задачах, требующих дедукции. |\n\n---\n\n### 3. Ключевые работы  \n\n| Работа | Год | Основной вклад |\n|--------|-----|----------------|\n| *Large language models encode clinical knowledge* | 2023 | Создан MultiMedQA – объединённый набор из шести медицинских QA‑датасетов, включая новый онлайн‑вопросы. Позволяет оценивать клиническую компетентность LLM. |\n| *Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code Generation* | 2025 | Предложен ToolGen – интеграция автокомплита в генерацию кода, устраняющая ошибки зависимостей. |\n| *Are Large Language Models Really"
+}

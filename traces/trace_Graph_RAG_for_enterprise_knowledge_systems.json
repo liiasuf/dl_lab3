@@ -1,0 +1,62 @@
+{
+  "topic": "Graph RAG for enterprise knowledge systems",
+  "history": [
+    {
+      "step_id": 0,
+      "action": "wikipedia",
+      "payload": {
+        "topic": "Graph RAG for enterprise knowledge systems"
+      },
+      "result_preview": "In knowledge representation and reasoning, a knowledge graph is a knowledge base that uses a graph-structured data model or topology to represent and operate on data. Knowledge graphs are often used t"
+    },
+    {
+      "step_id": 1,
+      "action": "openalex_search_page_1",
+      "payload": {
+        "query": "Graph RAG for enterprise knowledge systems",
+        "per_page": 5,
+        "page": 1
+      },
+      "result_preview": "found 5 papers (total 3131)"
+    },
+    {
+      "step_id": 2,
+      "action": "extract_abstracts_page_1",
+      "payload": {
+        "n": 4
+      },
+      "result_preview": "total notes: 4"
+    },
+    {
+      "step_id": 3,
+      "action": "openalex_search_page_2",
+      "payload": {
+        "query": "Graph RAG for enterprise knowledge systems",
+        "per_page": 5,
+        "page": 2
+      },
+      "result_preview": "found 5 papers (total 3131)"
+    },
+    {
+      "step_id": 4,
+      "action": "extract_abstracts_page_2",
+      "payload": {
+        "n": 5
+      },
+      "result_preview": "total notes: 9"
+    },
+    {
+      "step_id": 5,
+      "action": "generate_final",
+      "payload": {
+        "total_sources": 9
+      },
+      "result_preview": "**Определение темы**  \nGraph RAG (Retrieval‑Augmented Generation with графовой информацией) — это подход к интеграции знаний, представленных в виде графов (knowledge graphs), в процессы генерации текста большими языковыми моделями (LLM). В отличие от традиционного RAG, где поиск осуществляется по ст"
+    }
+  ],
+  "n_sources": 10,
+  "n_notes": 9,
+  "status": "finished",
+  "stop_reason": "final_answer_generated",
+  "final_answer_preview": "**Определение темы**  \nGraph RAG (Retrieval‑Augmented Generation with графовой информацией) — это подход к интеграции знаний, представленных в виде графов (knowledge graphs), в процессы генерации текста большими языковыми моделями (LLM). В отличие от традиционного RAG, где поиск осуществляется по статическим документам, Graph RAG использует графовую структуру для динамического извлечения релевантных узлов и связей, что повышает точность ответов и позволяет учитывать контекстуальные взаимосвязи между сущностями.\n\n---\n\n**Основные подходы**\n\n| Подход | Краткое описание |\n|--------|------------------|\n| **Статический RAG** | Использует поиск по коллекции документов (тексты, таблицы). Ограничен фиксированным набором источников. |\n| **Graph‑RAG** | Интегрирует графовые базы знаний (например, временные knowledge graphs) и позволяет выполнять запросы по структуре графа (узлы, ребра, атрибуты). |\n| **Agent‑based Graph‑RAG** | Комбинирует графовый поиск с агентской архитектурой (например, Zep), обеспечивая динамическое обновление памяти и контекста в реальном времени. |\n\n---\n\n**Ключевые работы**\n\n1. **“Retrieval-Augmented Generation for Large Language Models: A Survey” (2023)** – обзор существующих методов RAG, подчёркивающий преимущества интеграции внешних знаний и необходимость динамического обновления.  \n2. **“Leveraging NLP and Retrieval-Augmented Generation (RAG) Models for Automated Business Intelligence Query Resolution” (2024)** – предложение фреймворка, использующего RAG для автоматической интерпретации бизнес‑интеллектуальных запросов без технических навыков.  \n3. **“Zep: A Temporal Knowledge Graph Architecture for Agent Memory” (2025)** – представление Zep, памяти‑слоя для ИИ‑агентов, превосходящего MemGPT в Deep Memory Retrieval и демонстрирующего эффективность Graph‑RAG в динамических корпоративных сценариях.  \n4. **“Text to SQL AI Agentic Workflow Implementations: A Systematic Literature Review” (2025)** – систематический обзор Text‑to‑SQL решений, акцентирующий"
+}

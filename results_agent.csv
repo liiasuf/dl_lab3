@@ -1,0 +1,9 @@
+topic,mode,correctness,groundedness,completeness,coverage,source_consistency,rubric_score,n_steps,latency,stop_reason
+Agentic AI for customer support,agent,4,3,4,4,3,3.6,6,34.171653032302856,final_answer_generated
+Graph RAG for enterprise knowledge systems,agent,4,3,3,4,3,3.4,6,43.9406099319458,final_answer_generated
+LLM evaluation and process-aware metrics,agent,5,5,4,5,5,4.8,6,53.314252853393555,final_answer_generated
+Tool-using language models in scientific search,agent,4,4,3,3,4,3.6,6,45.35919499397278,final_answer_generated
+Retrieval-augmented generation in medicine,agent,5,4,4,4,4,4.2,6,40.74459481239319,final_answer_generated
+Planning and reflection in LLM agents,agent,5,5,4,5,5,4.8,6,48.09720778465271,final_answer_generated
+Human-in-the-loop AI systems,agent,3,2,3,2,1,2.2,6,49.15858721733093,final_answer_generated
+Knowledge graphs for procedural reasoning,agent,4,3,3,4,4,3.6,6,45.622032165527344,final_answer_generated

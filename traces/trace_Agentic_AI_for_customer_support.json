@@ -1,0 +1,62 @@
+{
+  "topic": "Agentic AI for customer support",
+  "history": [
+    {
+      "step_id": 0,
+      "action": "wikipedia",
+      "payload": {
+        "topic": "Agentic AI for customer support"
+      },
+      "result_preview": "In the context of generative artificial intelligence, AI agents are a class of intelligent agents that can pursue goals, use tools, and take actions with varying degrees of autonomy. In practice, they"
+    },
+    {
+      "step_id": 1,
+      "action": "openalex_search_page_1",
+      "payload": {
+        "query": "Agentic AI for customer support",
+        "per_page": 5,
+        "page": 1
+      },
+      "result_preview": "found 5 papers (total 78762)"
+    },
+    {
+      "step_id": 2,
+      "action": "extract_abstracts_page_1",
+      "payload": {
+        "n": 2
+      },
+      "result_preview": "total notes: 2"
+    },
+    {
+      "step_id": 3,
+      "action": "openalex_search_page_2",
+      "payload": {
+        "query": "Agentic AI for customer support",
+        "per_page": 5,
+        "page": 2
+      },
+      "result_preview": "found 5 papers (total 78762)"
+    },
+    {
+      "step_id": 4,
+      "action": "extract_abstracts_page_2",
+      "payload": {
+        "n": 5
+      },
+      "result_preview": "total notes: 7"
+    },
+    {
+      "step_id": 5,
+      "action": "generate_final",
+      "payload": {
+        "total_sources": 7
+      },
+      "result_preview": "**Определение темы**  \n«Agentic AI for customer support» — это применение автономных ИИ‑агентов, способных ставить цели, использовать инструменты и принимать решения в рамках заданных человеком ограничений, для оказания поддержки клиентам. Такие агенты обычно основаны на генеративных больших языковы"
+    }
+  ],
+  "n_sources": 10,
+  "n_notes": 7,
+  "status": "finished",
+  "stop_reason": "final_answer_generated",
+  "final_answer_preview": "**Определение темы**  \n«Agentic AI for customer support» — это применение автономных ИИ‑агентов, способных ставить цели, использовать инструменты и принимать решения в рамках заданных человеком ограничений, для оказания поддержки клиентам. Такие агенты обычно основаны на генеративных больших языковых моделях (LLM) и способны вести диалог, распознавать эмоции и управлять ими, а также повышать эффективность работы операторов.\n\n---\n\n### Основные подходы\n\n| Подход | Краткое описание | Примеры из литературы |\n|--------|------------------|-----------------------|\n| **Интеграция генеративного ИИ в существующие процессы** | Внедрение чат‑ботов, которые дополняют работу живых операторов, повышая скорость и качество решения запросов. | *Generative AI at Work* (2025) – анализ внедрения генеративного ИИ в 5 172 агента поддержки. |\n| **Эмоционально‑ориентированная поддержка** | Использование распознавания эмоций и эмпатических ответов для улучшения взаимодействия в эмоционально заряженных ситуациях. | *The Caring Machine: Feeling AI for Customer Care* (2023) – модель путешествия клиента с акцентом на эмоции. |\n| **Пользовательская мотивация и сопротивление** | Исследование факторов, которые влияют на принятие или отказ от ИИ‑агентов со стороны покупателей. | *What (de) motivates customers to use AI-powered conversational agents for shopping?* (2023). |\n| **Терминология и классификация** | Различие между «AI Agents» (модульные системы, ориентированные на конкретные задачи) и «Agentic AI» (системы с более широкой автономией). | *AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges* (2025). |\n\n---\n\n### Ключевые работы\n\n| Год | Название | Основной вклад |\n|-----|----------|----------------|\n| 2025 | *Generative AI at Work* | Оценка влияния генеративного ИИ на продуктивность операторов: +15 % решения вопросов в час, различия по опыту и навыкам. |\n| 2023 | *The Caring Machine: Feeling AI for Customer Care* | Предложена модель эмоционально‑ориентированной поддер"
+}

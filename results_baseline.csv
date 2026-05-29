@@ -1,0 +1,9 @@
+topic,mode,correctness,groundedness,completeness,coverage,source_consistency,rubric_score,n_steps,latency,stop_reason
+Agentic AI for customer support,baseline,5,5,4,5,5,4.8,1,17.80655598640442,baseline_single_step
+Graph RAG for enterprise knowledge systems,baseline,4,3,4,5,5,4.2,1,21.809702157974243,baseline_single_step
+LLM evaluation and process-aware metrics,baseline,4,3,3,4,5,3.8,1,26.523951053619385,baseline_single_step
+Tool-using language models in scientific search,baseline,4,2,3,4,1,2.8,1,19.642318964004517,baseline_single_step
+Retrieval-augmented generation in medicine,baseline,3,2,3,4,1,2.6,1,29.716041088104248,baseline_single_step
+Planning and reflection in LLM agents,baseline,3,2,2,3,1,2.2,1,28.085397958755493,baseline_single_step
+Human-in-the-loop AI systems,baseline,4,2,3,5,2,3.2,1,25.09987783432007,baseline_single_step
+Knowledge graphs for procedural reasoning,baseline,4,3,2,4,3,3.2,1,20.47763991355896,baseline_single_step
